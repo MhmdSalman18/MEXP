@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dish List</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <h2>Dish List</h2>
+    <% if (dishes.length > 0) { %>
+        <% dishes.forEach(function(dish) { %>
+            <h3><%= dish.heading %></h3>
+            <ul>
+                <% dish.dishes.forEach(function(dishName) { %>
+                    <li><%= dishName %></li>
+                <% }) %>
+            </ul>
+            <!-- Edit and PDF buttons -->
+            <form action="/edit/<%= dish._id %>" method="get" style="display:inline;">
+                <button type="submit">Edit</button>
+            </form>
+            <form action="/convert/<%= dish._id %>" method="get" style="display:inline;">
+                <button type="submit">Convert to PDF</button>
+            </form>
+            <hr>
+        <% }) %>
+    <% } else { %>
+        <p>No dishes found.</p>
+    <% } %>
+</body>
+</html>

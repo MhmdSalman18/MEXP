@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Dish</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <h2>Edit Dish</h2>
+    <form action="/update/<%= dish._id %>" method="POST">
+        <label for="heading">Heading:</label>
+        <input type="text" id="heading" name="heading" value="<%= dish.heading %>"><br><br>
+        <label for="dishes">Dishes:</label><br>
+        <% dish.dishes.forEach(function(dishName, index) { %>
+            <input type="text" name="dishes[]" value="<%= dishName %>"><br>
+        <% }) %>
+        <br>
+        <button type="submit">Update</button>
+    </form>
+    <a href="/display">Back to List</a>
+</body>
+</html>
