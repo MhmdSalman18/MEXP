@@ -65,10 +65,4 @@ The GMaps Insight Tool is a Python-based scraper using Playwright to extract bus
 
 Feel free to fork the repository and submit pull requests with improvements or bug fixes.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you have any questions or suggestions, please contact [your email or contact information].
