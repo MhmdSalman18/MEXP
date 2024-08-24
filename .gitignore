@@ -1,0 +1,39 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+*.egg-info/
+*.eggs/
+*.venv/
+
+# Environment variables file
+.env
+
+# Log files
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local settings
+*.local
+
+# Output files
+output/
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+
+# IDE specific files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
