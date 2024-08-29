@@ -10,6 +10,7 @@ The GMaps Insight Tool is a Python-based scraper using Playwright to extract bus
 - Scrapes business data from Google Maps.
 - Extracts business names, addresses, websites, phone numbers, reviews count, and average reviews.
 - Saves the data to Excel and CSV files.
+- Scrolls through each pages.
 
 ## Installation
 
