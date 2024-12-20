@@ -6,6 +6,7 @@ import os  # Import os for file and directory handling
 import sys  # Import sys for system-specific parameters and functions 
 # and functions 
 # Data class to hold business information 
+# and functions 
 @dataclass
 class Business:
     name: str = ""  # Business name
