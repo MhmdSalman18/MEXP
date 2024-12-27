@@ -5,7 +5,7 @@ import argparse  # Import argparse for command-line argument parsing
 import os  # Import os for file and directory handling
 import sys  # Import sys for system-specific parameters and functions 
 # and functions 
-# Data class to hold business information newwwwww
+# Data class to hold business information newwwww
 # and functions 
 @dataclass
 class Business:
