@@ -12,7 +12,7 @@ class Business:
     name: str = ""  # Business name
     address: str = ""  # Business address new
     website: str = ""  # Business website
-    phone_number: str = ""  # Business phone number
+    phone_number: str = ""  # Business phone 
     reviews_count: int = 0  # Number of reviews
     reviews_average: float = 0.0  # Average review rating
     latitude: float = 0.0  # Latitude coordinate
