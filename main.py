@@ -9,7 +9,7 @@ import sys  # Import sys for system-specific
 # and functions 
 @dataclass
 class Business:
-    name: str = ""  # Business name
+    name: str = ""  # Business 
     address: str = ""  # Business address new
     website: str = ""  # Business website
     phone_number: str = ""  # Business phone 
