@@ -10,7 +10,7 @@ import sys  # Import sys
 @dataclass
 class Business:
     name: str = ""  # Business 
-    address: str = ""  # Business address new
+    address: str = ""  # Business address 
     website: str = ""  # Business website
     phone_number: str = ""  # Business phone 
     reviews_count: int = 0  # Number of reviews
