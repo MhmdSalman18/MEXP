@@ -5,7 +5,7 @@ import argparse  # Import argparse for command-line argument parsing
 import os  # Import os for file and directory handling
 import sys  # Import sys 
 # and functions 
-# Data class to hold 
+# Data class to 
 # and functions 
 @dataclass
 class Business:
