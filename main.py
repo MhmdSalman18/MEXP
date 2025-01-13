@@ -1,7 +1,7 @@
 from playwright.sync_api import sync_playwright  # Import Playwright for browser automation
 from dataclasses import dataclass, asdict, field  # Import dataclass for creating data structures
 import pandas as pd  # Import pandas for handling data and saving it  files
-import argparse  # Import argparse for command-line argument parsing
+import argparse  # Import argparse for command-line argument parsi
 import os  # Import os for file and direc
 import sys  
 # and functions 
